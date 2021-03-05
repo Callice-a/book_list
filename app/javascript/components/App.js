@@ -24,11 +24,12 @@ const App = (props) => {
    
 
     return (
-      <div>
-        <h1>App Page</h1>
-        <button onClick={getBooks}>Get Books</button>
+      <div className='homepage'>
+        <h1 className='main_title'>Personal Library</h1>
+        <h3>Add a book</h3>
         <BookForm addBook={addBook} />
-        <Books books={books} deleteBook={deleteBook} /> 
+        <Books books={books} deleteBook={deleteBook} />
+        <button onClick={getBooks}>Show Books</button> 
       </div>
     );
 

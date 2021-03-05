@@ -8,12 +8,12 @@ const Book = (props) => {
     deleteBook(res.data.id)
   }
   return (
-    <div>
+    <div className='book_box'>
       <h1> 
-        {id}- {title}
-        <span onClick={() => deleteHandler(id)}>delete</span>
+         {title} #{id}
       </h1>
-      <p> author: {author}</p>
+      <p> Author: {author}</p>
+      <h2 ><span className='delete_button'onClick={() => deleteHandler(id)}>Delete&#128465;</span></h2>
     </div>
 
   )

@@ -1,3 +1,53 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+.homepage {
+    margin: 20px;
+
+}
+.main_title {
+    text-align: center;
+    text-shadow: 2px 2px 3px #496585;
+    color: rgb(235, 230, 230);
+    border-style: solid;
+    padding: 10px;
+    
+    
+}
+.delete_button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+
+}
+.book_box {
+    text-align: center;
+    border-style: solid;
+    margin: 15px;
+    
+}
+.form_input {
+    width: 400px;
+}
+
+h1 {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+div {
+    font-family: 'Source Code Pro', monospace;
+}

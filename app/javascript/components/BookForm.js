@@ -20,11 +20,11 @@ const handleSubmit = async (e) => {
 
   return (
     <form className= "book-form" onSubmit={handleSubmit}>
-      <p>title </p>
-      <input value={title} onChange={(e) => setTitle(e.target.value)} />
-      <p>author</p>
-     <input value={author} onChange={(e) => setAuthor(e.target.value)}/>
-    < button type='submit'>add</button>
+      <p>Title </p>
+      <input className='form_input' value={title} onChange={(e) => setTitle(e.target.value)} />
+      <p>Author</p>
+     <input className='form_input' value={author} onChange={(e) => setAuthor(e.target.value)}/>
+    < button type='submit'>Add</button>
     </form>
   )
 }
